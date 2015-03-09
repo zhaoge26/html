@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Operations Source Code</title>
+  <style type="text/css">
+    tr, td,th{border: 1px solid #000;}
+    a:hover{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+   <table summary="vuclip operations source code" border: "1" bordercolor="darkblue" cellspacing="0">
+ <caption><h1>Vuclip Operations Source Code</h1></caption>
+<tr>
+ <th></th>
+ <th>Target location</th>
+ <th>Source code</th>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca5.blueapple.mobi:8099/topexception/show.html">Top Exception</a></td>
+ <td>ca5:/content/topexception(scp from vu server)</td>
+ <td>vu:/home/admin/sbin/top_Exception.pl</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/appaccess/0current.txt">WAP Server access and exception log (hourly)</a></td>
+ <td>ca6: /content/appaccess</td>
+ <td>ca6:/home/gpadmin/scripts/hourly.sh  parser.4.awk</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://test7.blueapple.mobi:8099/007results/es-exception/0current.html">ES exception (1-2 hour delay)</a></td>
+ <td>ca1:/content/007results/es-exception</td>
+ <td>ca1:/home/admin/scripts/esexc.sh.new</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://test7.blueapple.mobi:8099/perf/es/es-today-sofar.txt">ES performance real time (1-hour depayed@33min)</a></td>
+ <td>ca1:/content/perf/es</td>
+ <td>ca1:/home/gpadmin/scripts/check-es-perf.v2.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/es/">ES daily summary</a></td>
+ <td>ca6:/content/007results/es/</td>
+ <td>ca6:/home/gpadmin/scripts/getEsSummary.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://a03.blueapple.mobi/dlanalysis/daily/dl-unique.txt">Daily video download uniques</a></td>
+ <td>a03:/home/admin/jakarta-tomcat-5.0.28/webapps/ROOT/dlanalysis/daily/</td>
+ <td><b>not found</b></td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/sql">Slow db access</a></td>
+ <td>ca6:/content/007results/sql/</td>
+ <td>ca6:/home/gpadmin/scripts/slowdb.sh slowdb_hourly.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/zs">Zero search results</a></td>
+ <td>ca6:/content/007results/zs/</td>
+ <td>ca6:/home/gpadmin/scripts/zs-omnf.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/omnf">Original media not found</a></td>
+ <td>ca6:/content/007results/omnf/</td>
+ <td>ca6:/home/gpadmin/scripts/zs-omnf.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/zo">Zero search and Original media not found - hourly</a></td>
+ <td>ca6:/content/007results/zo/</td>
+ <td>ca6:/home/gpadmin/scripts/zs-omnf-hourly.sh</td>
+</tr>
+<tr>
+ <td>Temporary Service Not Available
+<a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/tsna/0current.txt">total</a>
+<a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/tsna/0current_temp_null.txt">each server</a></td>
+ <td>ca6:/content/007results/tsna/</td>
+ <td>ca6:/home/gpadmin/scripts/temp-server-hourly.sh  check-temp-null-cluster.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/perf/reassign/0current.txt">Hourly reassign stats</a></td>
+ <td>ca6:/content/007results/reassign/</td>
+ <td>ca6:/home/gpadmin/scripts/check-reassign.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/adultpage/0current.txt">Adult page hourly data</a></td>
+ <td>ca6:/content/007results/adultpage/</td>
+ <td>ca6:/home/gpadmin/scripts/adultpage.sh</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://ca6.blueapple.mobi:8099/appaccess">WAP Server access and exception log hourly report(including premium,ncapp and ad)</a></td>
+ <td>ca6:/content/appaccess/</td>
+ <td>ca6:/home/gpadmin/scripts/hourly.sh hourly.vodafonealert.sh hourly.use_server.sh hourly.airtelfree.sh parser.*.awk</td>
+</tr>
+<tr>
+ <td><a target="_blank" href="http://a03.blueapple.mobi/base/0baseException.current.txt">Base performance hourly (Exception)</a></td>
+ <td>a03:/home/admin/jakarta-tomcat-5.0.28/webapps/ROOT/base/</td>
+ <td><b>not found</b></td>
+</tr>
+<tr>
+ <td>
+<li>Base performance
+<ul>
+<li><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/base-perf">hourly (007 synopsis)</a>
+<li><a target="_blank" href="http://ca6.blueapple.mobi:8099/007results/base-perf2">hourly (sites breakdown)</a>
+<li><a target="_blank" href="http://65.49.33.72/videoperf/recrawl/0current.txt">hourly youtube recrawl and base diestribution in each subnet</a>
+<li><a target="_blank" href="http://65.49.33.72/videoperf/recrawl/yblk.0current.txt">hourly youtube recrawl and block per base </a>
+<li><a target="_blank" href="http://test7.blueapple.mobi:8099/007results/es-exception/">hourly es exception in each cluster</a>
+<li><a target="_blank" href="http://test7.blueapple.mobi:8099/007results/es-recrawler/">hourly recrawl in each cluster</a>
+<li><a target="_blank" href="http://ca5.blueapple.mobi:8099/solr/0current.txt">Solr Stats(Hourly)</a>
+<a target="_blank" href="http://ca5.blueapple.mobi:8099/solr.daily/0current.txt">(Daily)</a>
+<li><a target="_blank" href="http://ca5.blueapple.mobi:8099/crawler.hourly/">Crawler Stats (Hourly)</a>
+ <a target="_blank" href="http://ca5.blueapple.mobi:8099/crawler.hourly/0crawler.daily.txt">(Daily)</a>
+<li><a target="_blank" href="http://ca5.blueapple.mobi:8099/ssp/0current.txt">Ssp Stats(Hourly)</a> 
+</ul>
+</td>
+ <td><li>location
+  <ul>
+   <li>ca6:/content/007results/base-perf/
+   <li>ca6:/content/007results/base-perf2/
+   <li>vtest:/content/videoperf/recrawl/
+   <li>vtest:/content/videoperf/recrawl/
+   <li>ca1:/content/007results/es-exception/
+   <li>ca1:/content/007results/es-recrawler/
+   <li>ca5:/content/solr/ /content/solr.daily/
+   <li>ca5:/content/crawler.hourly/
+   <li>ca5:/content/ssp/
+  </ul>
+ </td>
+ <td><li>scripts:
+  <ul>
+  <li>ca6:/home/gpadmin/scripts/base.sh 
+  <li>ca6:/home/gpadmin/scripts/base2a.sh base2a.awk
+  <li>vtest:/home/admin/provision/check-base.sh
+  <li>vtest:/home/admin/provision/check-base.sh
+  <li>ca1:/home/gpadmin/scripts/hourly.sh parser.4.awk
+  <li>ca1:/home/gpadmin/scripts/check-recraw-manu.sh
+  <li>ca5:/home/admin/bluePerl/solr.hourly.pl solr.daily.pl
+  <li>ca5:/home/admin/bluePerl/crawler.hourly.pl crawler.daily.pl
+  <li>ca5:/home/admin/bluePerl/ssp.hourly.pl
+  </ul>
+ </td>
+</tr>
+<tr>
+ <td>  <li>Video performance:&nbsp
+  <ul>
+  <li><a target="_blank" href="http://65.49.33.72/videoperf/cacheload/0current.txt">Cache load (New Format)</a>
+  <li><a target="_blank" href="http://ca5.blueapple.mobi:8099/esInfo/clusterBalance.html">Load Balance</a>
+  <li><a target="_blank" href="http://65.49.33.72/videoperf/crash.txt">Daily crash (including ES, CS and IS)</a>
+  <li><a target="_blank" href="http://test7.blueapple.mobi:8099/perf/es/es-today-sofar.txt">ES performance real time (1-hour delayed@33min)</a>
+  <li><a target="_blank" href="http://test7.blueapple.mobi:8099/perf/es2/es2-today-sofar.txt">More ES performance real time (1-hour delayed@33min)</a>
+  <li><a target="_blank" href="http://test7.blueapple.mobi:8099/perf/ss/ss-today-sofar.txt">Streaming performance real time (1-hour delayed@43min)</a>
+  <li><a target="_blank" href="http://test7.blueapple.mobi:8099/perf/nginx-err/0current.html">CS nginx and nginx proxy error (daily)</a>
+  <li><a target="_blank" href="http://test7.blueapple.mobi:8099/perf/nginx-err/0current.proxy.txt"> nginx proxy detail (daily)</a> <a target="_blank" href="http://test7.blueapple.mobi:8099/perf/nginx-err/0current.proxy.hourly.txt">(hourly)<br/>
+<!--<li><a target="_blank" href="http://test7.blueapple.mobi:8099/007results/perf/cache-network/">Cache Network Error</a><br/>-->
+  <li><a target="_blank" href="http://test7.blueapple.mobi:8099/007results/perf/trafficSpeed/">Download Speed (hourly)</a><br/>
+ </td>
+ <td><li>location:
+  <ul>
+  <li>vtest:/content/videoperf/cacheload/
+  <li>ca5:/content/esInfo/
+  <li>vtest:/content/videoperf/crash.txt
+  <li>ca1:/content/perf/es/
+  <li>ca1:/content/perf/es2/
+  <li>ca1:/content/perf/ss/
+  <li>ca1:/content/perf/nginx-err/
+  <li>ca1:/content/perf/nginx-err/
+  <li>ca1:/content/perf/trafficSpeed/
+  </ul>
+
+ </td>
+ <td><li>scripts:
+  <ul>
+  <li>vtest:/home/admin/provision/check-cache.sh
+  <li><b>not found</b>,maybe create on pp1
+  <li>vtest:/home/admin/provision/check-crash.sh
+  <li>ca1:/home/gpadmin/scripts/check-es-perf.v2.sh
+  <li>ca1:/home/gpadmin/scripts/check-es-perf2.v2.sh
+  <li>ca1:/home/gpadmin/scripts/check-ss-perf.sh
+  <li>ca1:/home/gpadmin/scripts/check-nginx-err.sh
+  <li>ca1:/home/gpadmin/scripts/check-nginx-cron.sh check-nginx-hourly-cron.sh  check-proxy.awk
+  <li>ca1:/home/gpadmin/sbin/uploadLogBatch.sh--> /home/gpadmin/bluePython/patch.sh
+ </td>
+</tr>
+<tr>
+ <td>Classifier performance <a target="_blank" href="http://65.49.33.62:8080/classifier/0current.txt"> daily </a></td>
+ <td>classifier00:/home/admin/apache-tomcat-5.5.28/webapps/ROOT/classifier</td>
+ <td>classifier00:/etc/cron.daily/cut_performance.sh</td>
+</tr>
+<tr>
+ <td>RelatedVideo performance <a target="_blank" href="http://65.49.33.62:8080/relatedvideo/0current.txt"> daily </a></td>
+ <td>classifier00:/home/admin/apache-tomcat-5.5.28/webapps/ROOT/relatedvideo/</td>
+ <td>classifier00:/etc/cron.daily/cut_performance.sh</td>
+</tr>
+<tr>
+ <td><li>PCC performance
+  <ul>
+   <li>Feed <a target="_blank" href="http://ca5.blueapple.mobi:8099/esInfo/0current.txt">input/published</a> <a target="_blank" href="http://ca5.blueapple.mobi:8099/esInfo/0-err-current.html">error</a> <a target="_blank" href="http://ca5.blueapple.mobi:8099/esInfo/">historic data</a> <a target="_blank" href="http://a03.blueapple.mobi/pcc/">old data</a>
+   <li><a target="_blank" href="http://65.49.33.72/videoperf/pcc-error-download.txt">Daily error download (accumulated)</a>
+  </ul>
+ </td>
+ <td>
+  <li>ca5:/content/esInfo/  a03:/home/admin/jakarta-tomcat-5.0.28/webapps/ROOT/pcc
+  <li>vtest:/content/videoperf/pcc_error_download/
+ </td>
+ <td>
+  <li>pp1:/home/admin/pcc-perf/perf.sh  perf2.sh
+  <li>vtest:/home/admin/provision/check-pcc-error-download.sh
+ </td>
+</tr>
+<tr>
+ <td><li>MSC performance <a target="_blank" href="http://65.49.33.72/videoperf/msc.txt">Hourly</a> |<a target="_blank" href="http://65.49.33.72/videoperf/msc/">Historical data</a>
+ </td>
+ <td>vtest:/content/videoperf/msc/</td>
+ <td>vtest:/home/admin/provision/check-msc.sh</td>
+</tr>
+<tr>
+ <td>QC performance <a target="_blank" href="http://65.49.33.62:8080/qc/0current.txt"> daily</a></td>
+ <td>classifier00:/home/admin/apache-tomcat-5.5.28/webapps/ROOT/qc/</td>
+ <td>classifier00:/etc/cron.daily/cut_performance.sh</td>
+</tr>
+<tr>
+ <td><li>Translate
+  <ul>
+  <li><a target="_blank" href="http://184.105.234.185:8099/tranlate_log/">Server</a>
+  <li><a target="_blank" href="http://184.105.234.185:8099/staging/alog/translate.proxy/">Proxy</a>
+  </ul>
+ </td>
+ <td>ca5:/content/tranlate_log/
+    ca5:/content/staging/alog/translate.proxy
+ </td>
+ <td>
+    ca5:/home/admin/bluePerl/tranlate.pl
+    ca5:/home/admin/scripts/translate_nginx_proxy_list.pl
+ </td>
+</tr>
+<tr>
+ <td><li>Image proxy performance
+ <ul>
+ <li>hourly&nbsp;<a target="_blank" href="http://i0.blueapple.mobi:8090/image_proxy_performance/0current.txt">[i0]</a>&nbsp;
+  <a target="_blank" href="http://i1.blueapple.mobi:8090/image_proxy_performance/0current.txt">[i1]</a>&nbsp;
+  <a target="_blank" href="http://i2.blueapple.mobi:8090/image_proxy_performance/0current.txt">[i2]</a>&nbsp;
+  <a target="_blank" href="http://i3.blueapple.mobi:8090/image_proxy_performance/0current.txt">[i3]</a>&nbsp;
+  <a target="_blank" href="http://i4.blueapple.mobi:8090/image_proxy_performance/0current.txt">[i4]</a>&nbsp;
+  <a target="_blank" href="http://i5.blueapple.mobi:8090/image_proxy_performance/0current.txt">[i5]</a>&nbsp;
+ <li>daily&nbsp;<a target="_blank" href="http://i0.blueapple.mobi:8090/key_metrics/0current.txt">[i0]</a>&nbsp;
+  <a target="_blank" href="http://i1.blueapple.mobi:8090/key_metrics/0current.txt">[i1]</a>&nbsp;
+  <a target="_blank" href="http://i2.blueapple.mobi:8090/key_metrics/0current.txt">[i2]</a>&nbsp;
+  <a target="_blank" href="http://i3.blueapple.mobi:8090/key_metrics/0current.txt">[i3]</a>&nbsp;
+  <a target="_blank" href="http://i4.blueapple.mobi:8090/key_metrics/0current.txt">[i4]</a>&nbsp;
+  <a target="_blank" href="http://i5.blueapple.mobi:8090/key_metrics/0current.txt">[i5]</a>&nbsp;
+</ul>
+ </td>
+ <td>i0-i5:
+      /home/admin/log/monitor/image_proxy_performance
+      /home/admin/log/monitor/key_metrics
+ </td>
+ <td>i0-i5:
+      /home/admin/sbin/daily.sh
+     /home/admin/sbin/hourly.sh 
+ </td>
+</tr>
+<tr>
+  <td><li>Analytics and operation related trackings
+<ul>
+<li><a target="_blank" href="http://ca5.blueapple.mobi:8099/dlanalysis/">Video download analysis</a>
+<li><a target="_blank" href="http://ca5.blueapple.mobi:8099/topSearchTerm/">Top Search Term analysis</a>
+<li><a target="_blank" href="http://ca5.blueapple.mobi:8099/top100country/">Top 100</a>
+<li><a target="_blank" href="http://65.49.33.72/videoperf/memcached/memcachedusage.txt">memcached</a>
+  </td>
+ <td>
+  <ul>
+  <li>ca5:/content/dlanalysis/(scp from ca1)
+  <li>ca5:/content/topSearchTerm/
+  <li>ca5:/content/top100country/
+  <li>vtest:/content/videoperf/memcached/
+ </td>
+ <td>
+ <ul>
+  <li>ca1: /home/gpadmin/zchen/scripts/hourly.sh.3
+  <li>ca5:/home/gpadmin/bluePerl/topSearchTerm.pl
+  <li>ca5:/home/admin/sbin/top100/get_top100_psql_ba.sh
+  <li>vtest:/home/admin/provision/check-memcached.sh
+ </td> 
+</tr>
+</table>
+</body>
+</html>

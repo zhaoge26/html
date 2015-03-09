@@ -1,0 +1,209 @@
+<page>
+<body>
+<sections>
+<section type="songs" title="More songs"/>
+<section type="scenes" title="More scenes"/>
+<section type="trailors" title="More trailors"/>
+</sections>
+<category isepisodic="false" iscollection="false" id="0_2" title="Home" scroll_direction="horizontal">
+<container id="Featured" title="Featured" recommtitle="Recommended Featured" spotlight="true">
+<item type="playlist" paid="true" id="pcc-3271" variation="pcc" tver="-1" tcid="967335584" title="Bigg Boss 8 Uncensored"/>
+<item type="clip" sections="songs" tdur="116" urlpath="http%3A%2F%2Fs2590.vuclip.com%2Fd1%2Ffd%2Fd1fd7ea687db172550a89ad24c249fe6" args="%3Fc%3D931943049%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="d1fd_" profileforwhole="5" tur="01:57" duration="116" paid="true" id="931943049" tver="-1" tcid="954092537" title="Kill Dil - Sweeta"/>
+<item type="playlist" paid="false" id="pcc-2408" variation="pcc" tver="-1" tcid="967775497" title="Gabbar Premium"/>
+<item type="playlist" paid="true" id="pcc-1741" variation="pcc" tver="-1" tcid="967340218" title="Taarak Mehta Ka Ooltah Chashmah"/>
+<item type="clip" tdur="219" urlpath="http%3A%2F%2Fs1070.vuclip.com%2Fbf%2F8e%2Fbf8eee2b695b648df708cee338424a73" args="%3Fc%3D730363535%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="bf8e_" profileforwhole="5" tur="03:39" duration="219" paid="true" id="730363535" tver="-1" tcid="954092827" title="Achko Machko - Honey Singh "/>
+<item type="playlist" paid="true" id="21348049" variation="playlist" tver="-1" tcid="967343279" title="King Khan Special"/>
+<item type="playlist" paid="true" id="21447875" variation="playlist" tver="-1" tcid="962105179" title="Charlie Chaplin"/>
+<item type="playlist" paid="true" id="16177584" variation="playlist" tver="-1" tcid="967350302" title=" Master Chef Sanjeev Kapoor"/>
+</container>
+<container id="Recommended Movies" recommtitle="Recommended Movies" title="Recommended Movies">
+<item type="clip" sections="scenes" tdur="7339" urlpath="http%3A%2F%2Fs2430.vuclip.com%2F00%2F9b%2F009b396282467256daab02fed2313ea6" args="%3Fc%3D930358755%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="009b_" profileforwhole="5" tur="122:19" duration="7339" paid="false" id="930358755" tver="2" tcid="930358755" title="Shootout At Lokhandwala"/>
+<item type="clip" tdur="11095" urlpath="http%3A%2F%2Fs1540.vuclip.com%2F48%2F4d%2F484d28190cdd2fb7d738ce7804a15f4c" args="%3Fc%3D916750105%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="484d_" profileforwhole="5" tur="184:55" duration="11095" paid="true" id="916750105" tver="5" tcid="916750105" title="Hum Aapke Hain Koun"/>
+</container>
+<container id="Recommended Songs" recommtitle="Recommended Songs" title="Recommended Songs">
+<item type="clip" sections="songs" tdur="236" urlpath="http%3A%2F%2Fs350.vuclip.com%2Ffd%2F6a%2Ffd6a30a18c5e7c88bdbe31cadc4a6338" args="%3Fc%3D826355624%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="fd6a_" profileforwhole="5" tur="03:56" duration="236" paid="true" id="826355624" tver="4" tcid="826355624" title="Dhoom 3 - Kamli"/>
+<item type="clip" sections="songs" tdur="264" urlpath="http%3A%2F%2Fs1320.vuclip.com%2F72%2Fdf%2F72dfe288f056821078ddd4d4c0177c14" args="%3Fc%3D835981518%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="72df_" profileforwhole="5" tur="04:24" duration="264" paid="false" id="835981518" tver="3" tcid="835981518" title="Fanaa - Mere Haath Mein"/>
+<item type="clip" sections="songs" tdur="312" urlpath="http%3A%2F%2Fs2340.vuclip.com%2Fbb%2F21%2Fbb21c42987a1dfbe226f79082e079de6" args="%3Fc%3D835882985%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="bb21_" profileforwhole="5" tur="05:12" duration="312" paid="true" id="835882985" tver="5" tcid="835882985" title="DDLJ - Tujhe Dekha"/>
+</container>
+<container id="Recommended Shows" recommtitle="Recommended Shows" title="Recommended Shows">
+<item type="playlist" paid="true" id="pcc-3130" tver="-1" tcid="954142690" variation="pcc" title="Itna Karo Na Mujhe Pyar"/>
+<item type="playlist" paid="true" id="pcc-3385" tver="-1" tcid="968175055" variation="pcc" title="Yum Hain Hum"/>
+<item type="playlist" paid="false" id="pcc-2146" tver="-1" tcid="964991179" variation="pcc" title="Rangrasiya"/>
+<item type="playlist" paid="true" id="pcc-2017" tver="-1" tcid="954106806" variation="pcc" title="Maharana Pratap"/>
+<item type="playlist" paid="true" id="pcc-1823" tver="-1" tcid="954094111" variation="pcc" title="Comedy Nights With Kapil"/>
+<item type="playlist" paid="false" id="pcc-2863" tver="-1" tcid="954143620" variation="pcc" title="Kahaani Hamaaray Mahaabhaarat Ki"/>
+<item type="playlist" paid="true" id="pcc-1407" tver="-1" tcid="954098971" variation="pcc" title="C.I.D."/>
+<item type="playlist" paid="true" id="pcc-1964" tver="-1" tcid="954070714" variation="pcc" title="Balika Vadhu"/>
+<item type="playlist" paid="true" id="pcc-2147" tver="-1" tcid="954108182" variation="pcc" title="Malgudi Days"/>
+<item type="playlist" paid="true" id="pcc-1345" tver="-1" tcid="968176346" variation="pcc" title="Crime Patrol Satark"/>
+</container>
+</category>
+<category isepisodic="false" iscollection="false" id="1_2" title="Movies" scroll_direction="vertical">
+<filters>
+<filter id="lang" caption="Language">
+<item id="-1" caption="All"/>
+<item id="bengali" caption="bengali"/>
+<item id="english" caption="english"/>
+<item id="hindi" caption="hindi"/>
+<item id="kannada" caption="kannada"/>
+<item id="malayalam" caption="malayalam"/>
+<item id="marathi" caption="marathi"/>
+<item id="nepali" caption="nepali"/>
+<item id="punjabi" caption="punjabi"/>
+<item id="tamil" caption="tamil"/>
+<item id="telugu" caption="telugu"/>
+</filter>
+<filter id="genre" caption="Genre">
+<item id="-1" caption="All"/>
+<item id="147" caption="Action"/>
+<item id="149" caption="Animated"/>
+<item id="148" caption="Comedy"/>
+<item id="154" caption="Drama"/>
+<item id="150" caption="Horror"/>
+<item id="142" caption="Nature"/>
+<item id="151" caption="Romance"/>
+<item id="146" caption="Science"/>
+<item id="145" caption="Sports"/>
+<item id="156" caption="Thriller"/>
+</filter>
+</filters>
+<container id="movies" recommtitle="Recommended Movies" title="Movies">
+<item type="clip" sections="scenes" tdur="7339" urlpath="http%3A%2F%2Fs2430.vuclip.com%2F00%2F9b%2F009b396282467256daab02fed2313ea6" args="%3Fc%3D930358755%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="009b_" profileforwhole="5" tur="122:19" duration="7339" paid="false" id="930358755" tcid="930358755" tver="2" title="Shootout At Lokhandwala"/>
+<item type="clip" tdur="8597" urlpath="http%3A%2F%2Fs1680.vuclip.com%2F55%2F5c%2F555c6b1620ddae1a8b407bf434291bdf" args="%3Fc%3D930353281%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="555c_" profileforwhole="5" tur="143:17" duration="8597" paid="true" id="930353281" tcid="930353281" tver="4" title="Once Upon A Time in Mumbai Dobaara"/>
+<item type="clip" tdur="7161" urlpath="http%3A%2F%2Fs1720.vuclip.com%2F97%2F08%2F9708e042a2fb1b2a8b3386b5fb944bd2" args="%3Fc%3D792671940%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="9708_" profileforwhole="5" tur="119:21" duration="7161" paid="false" id="792671940" tcid="792671940" tver="2" title="8 x 10 Tasveer"/>
+<item type="clip" tdur="9058" urlpath="http%3A%2F%2Fs180.vuclip.com%2F3e%2F53%2F3e53ce4e437ef920638d56293a4d2748" args="%3Fc%3D911024917%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="3e53_" profileforwhole="3" tur="150:58" duration="9058" paid="false" id="911024917" tcid="911024917" tver="3" title="Deewane Huye Paagal"/>
+<item type="clip" tdur="5491" urlpath="http%3A%2F%2Fs2350.vuclip.com%2F2c%2F41%2F2c41c0df525cebb090a22137be9a10a8" args="%3Fc%3D867527932%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="2c41_" profileforwhole="3" tur="91:31" duration="5491" paid="true" id="867527932" tcid="867527932" tver="6" title="Jackpot"/>
+<item type="clip" tdur="6789" urlpath="http%3A%2F%2Fs1940.vuclip.com%2F1a%2F53%2F1a53a4d78be98014a58c0dc8ce4dc2c8" args="%3Fc%3D949125141%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="1a53_" profileforwhole="5" tur="113:09" duration="6789" paid="false" id="949125141" tcid="949125141" tver="2" title="Le Gaya Saddam"/>
+<item type="clip" tdur="2072" urlpath="http%3A%2F%2Fs1570.vuclip.com%2F9d%2Fc4%2F9dc4420faa18dcb94f679fedf3395eac" args="%3Fc%3D873521424%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="9dc4_" profileforwhole="5" tur="34:32" duration="2072" paid="false" id="873521424" tcid="873521424" tver="2" title="420 The Conman"/>
+<item type="clip" sections="songs" tdur="8164" urlpath="http%3A%2F%2Fs1750.vuclip.com%2Fd1%2Fd6%2Fd1d6fc86f2bf014eee98fb13539738c5" args="%3Fc%3D920390649%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="d1d6_" profileforwhole="5" tur="136:04" duration="8164" paid="false" id="920390649" tcid="920390649" tver="2" title="Isi Life Mein"/>
+<item type="clip" tdur="7525" urlpath="http%3A%2F%2Fs1900.vuclip.com%2F0d%2F19%2F0d19df7f9ca27e33089be2642050e588" args="%3Fc%3D792644145%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="0d19_" profileforwhole="3" tur="125:25" duration="7525" paid="false" id="792644145" tcid="792644145" tver="2" title="50 Lakh"/>
+<item type="clip" sections="scenes" tdur="8056" urlpath="http%3A%2F%2Fs1660.vuclip.com%2F9a%2F97%2F9a97f8efc63fd86a6338c015aba15a8f" args="%3Fc%3D930354306%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="9a97_" profileforwhole="5" tur="134:16" duration="8056" paid="true" id="930354306" tcid="930354306" tver="2" title="Once Upon A Time In Mumbai"/>
+<item type="clip" tdur="9250" urlpath="http%3A%2F%2Fs1550.vuclip.com%2F7b%2F35%2F7b35a3364ff5b2d6804282e2c9d41693" args="%3Fc%3D911025168%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="7b35_" profileforwhole="5" tur="154:10" duration="9250" paid="false" id="911025168" tcid="911025168" tver="2" title="Aan Men At Work"/>
+<item type="clip" sections="scenes" tdur="9533" urlpath="http%3A%2F%2Fs1860.vuclip.com%2Fc1%2F16%2Fc1160e54e5e8146ac1e0339e47933d1a" args="%3Fc%3D911025011%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="c116_" profileforwhole="3" tur="" duration="9533" paid="false" id="911025011" tcid="911025011" tver="3" title="Awara Paagal Deewana"/>
+<item type="clip" tdur="1350" urlpath="http%3A%2F%2Fs990.vuclip.com%2Ffe%2F1f%2Ffe1fe544d3a892f206c5b3afc251b2d4" args="%3Fc%3D949124320%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="fe1f_" profileforwhole="5" tur="22:33" duration="1350" paid="false" id="949124320" tcid="949124320" tver="2" title="Daal Main Kuch Kaala Hai"/>
+<item type="clip" tdur="2803" urlpath="http%3A%2F%2Fs1550.vuclip.com%2F28%2F0d%2F280d19e94c7f78470b80fdee59b35371" args="%3Fc%3D949125394%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="280d_" profileforwhole="5" tur="46:46" duration="2803" paid="true" id="949125394" tcid="949125394" tver="2" title="Listen Amaya"/>
+<item type="clip" sections="scenes" tdur="9646" urlpath="http%3A%2F%2Fs180.vuclip.com%2F43%2Fb8%2F43b82ae1a229644a92dfe4fc4fde264f" args="%3Fc%3D930343025%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="43b8_" profileforwhole="4" tur="160:46" duration="9646" paid="false" id="930343025" tcid="930343025" tver="2" title="Maa Tujhe Salaam"/>
+<item type="clip" tdur="1648" urlpath="http%3A%2F%2Fs1160.vuclip.com%2Fc1%2F51%2Fc1513a80b5395f41be60becabda46b9d" args="%3Fc%3D623493587%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="c151_" profileforwhole="4" tur="27:28" duration="1648" paid="false" id="623493587" tcid="623493587" tver="2" title="Jeans"/>
+<item type="clip" tdur="8" urlpath="http%3A%2F%2Fs2710.vuclip.com%2F45%2F50%2F45509e237dee452a97571ec7f57f3d08" args="%3Fc%3D792673888%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="4550_" profileforwhole="4" tur="00:08" duration="8" paid="false" id="792673888" tcid="792673888" tver="2" title="C U At 9"/>
+<item type="clip" tdur="8056" urlpath="http%3A%2F%2Fs690.vuclip.com%2Fed%2F1b%2Fed1b33dab14fae4aaa832c078ef610fc" args="%3Fc%3D928056341%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="ed1b_" profileforwhole="4" tur="134:16" duration="8056" paid="false" id="928056341" tcid="928056341" tver="2" title="Baarood - The Fire"/>
+<item type="clip" tdur="8278" urlpath="http%3A%2F%2Fs1530.vuclip.com%2F0f%2F22%2F0f226ec6087ac12f27d2f0df946f5197" args="%3Fc%3D938221005%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="0f22_" profileforwhole="4" tur="137:58" duration="8278" paid="false" id="938221005" tcid="938221005" tver="0" title="Hum Pyar Tumhi Se Kar Baithe"/>
+</container>
+</category>
+<category isepisodic="true" iscollection="false" id="2_2" title="TV Shows" scroll_direction="vertical">
+<filters>
+<filter id="lang" caption="Language">
+<item id="-1" caption="All"/>
+<item id="english" caption="english"/>
+<item id="hindi" caption="hindi"/>
+<item id="malayalam" caption="malayalam"/>
+<item id="marathi" caption="marathi"/>
+</filter>
+<filter id="genre" caption="Genre">
+<item id="-1" caption="All"/>
+<item id="133" caption="Automobile"/>
+<item id="41" caption="Comedy"/>
+<item id="217" caption="Cookery"/>
+<item id="47" caption="Crime"/>
+<item id="39" caption="Drama"/>
+<item id="44" caption="Epic"/>
+<item id="219" caption="Infotainment"/>
+<item id="42" caption="Kids"/>
+<item id="218" caption="Lifestyle"/>
+<item id="38" caption="Reality"/>
+<item id="50" caption="Talk Shows"/>
+<item id="134" caption="Travel & Living"/>
+</filter>
+</filters>
+<container recommtitle="Recommended Tv Shows" title="Tv Shows">
+<item type="playlist" paid="true" id="pcc-3271" tver="-1" tcid="962237051" variation="pcc" title="Bigg Boss 8 Uncensored"/>
+<item type="playlist" paid="false" id="pcc-1966" tver="-1" tcid="964987471" variation="pcc" title="Madhubala"/>
+<item type="playlist" paid="true" id="pcc-3385" tver="-1" tcid="968175055" variation="pcc" title="Yum Hain Hum"/>
+<item type="playlist" paid="false" id="pcc-2408" tver="-1" tcid="967775497" variation="pcc" title="Gabbar Premium"/>
+<item type="playlist" paid="true" id="pcc-3386" tver="-1" tcid="968175706" variation="pcc" title="Bhanwar"/>
+<item type="playlist" paid="false" id="pcc-2146" tver="-1" tcid="964991179" variation="pcc" title="Rangrasiya"/>
+<item type="playlist" paid="true" id="pcc-3272" tver="-1" tcid="967635396" variation="pcc" title="Charlie Chaplin"/>
+<item type="playlist" paid="false" id="pcc-2072" tver="-1" tcid="954107369" variation="pcc" title="Garfield & Friends"/>
+<item type="playlist" paid="true" id="pcc-3130" tver="-1" tcid="954142690" variation="pcc" title="Itna Karo Na Mujhe Pyar"/>
+<item type="playlist" paid="false" id="pcc-2863" tver="-1" tcid="954143620" variation="pcc" title="Kahaani Hamaaray Mahaabhaarat Ki"/>
+<item type="playlist" paid="true" id="pcc-1741" tver="-1" tcid="961876380" variation="pcc" title="Taarak Mehta Ka Ooltah Chashmah"/>
+<item type="playlist" paid="false" id="pcc-1965" tver="-1" tcid="964992728" variation="pcc" title="Bani Ishq Da Kalma"/>
+<item type="playlist" paid="true" id="pcc-1407" tver="-1" tcid="954098971" variation="pcc" title="C.I.D."/>
+<item type="playlist" paid="false" id="pcc-2045" tver="-1" tcid="965134577" variation="pcc" title="Food Zone"/>
+<item type="playlist" paid="true" id="pcc-2927" tver="-1" tcid="954098473" variation="pcc" title="Udann"/>
+<item type="playlist" paid="false" id="pcc-1968" tver="-1" tcid="964994983" variation="pcc" title="Sanskar Dharohar Apno Ki"/>
+<item type="playlist" paid="true" id="pcc-1823" tver="-1" tcid="954094111" variation="pcc" title="Comedy Nights With Kapil"/>
+<item type="playlist" paid="false" id="pcc-2145" tver="-1" tcid="964994515" variation="pcc" title="Beintehaa"/>
+<item type="playlist" paid="true" id="pcc-1969" tver="-1" tcid="954098339" variation="pcc" title="Sasural Simar Ka"/>
+<item type="playlist" paid="false" id="pcc-2336" tver="-1" tcid="964996970" variation="pcc" title="Khatron Ke Khiladi Season 5"/>
+</container>
+</category>
+<category isepisodic="false" iscollection="false" id="3_2" title="Songs" scroll_direction="vertical">
+<filters>
+<filter id="lang" caption="Language">
+<item id="-1" caption="All"/>
+<item id="assamese" caption="assamese"/>
+<item id="bengali" caption="bengali"/>
+<item id="bihari" caption="bihari"/>
+<item id="harynavi" caption="harynavi"/>
+<item id="hindi" caption="hindi"/>
+<item id="kannada" caption="kannada"/>
+<item id="malayalam" caption="malayalam"/>
+<item id="marathi" caption="marathi"/>
+<item id="nepali" caption="nepali"/>
+<item id="oriya" caption="oriya"/>
+<item id="punjabi" caption="punjabi"/>
+<item id="tamil" caption="tamil"/>
+<item id="telugu" caption="telugu"/>
+</filter>
+<filter id="genre" caption="Genre">
+<item id="-1" caption="All"/>
+<item id="208" caption="Dance"/>
+<item id="78" caption="Film"/>
+<item id="86" caption="Folk"/>
+<item id="72" caption="Hinduism"/>
+<item id="79" caption="Indipop"/>
+<item id="82" caption="Rock"/>
+<item id="211" caption="Romantic"/>
+<item id="15" caption="Scenes"/>
+<item id="16" caption="Trailers"/>
+</filter>
+</filters>
+<container id="songs" recommtitle="Recommended Songs" title="Songs">
+<item type="clip" sections="songs" tdur="236" urlpath="http%3A%2F%2Fs350.vuclip.com%2Ffd%2F6a%2Ffd6a30a18c5e7c88bdbe31cadc4a6338" args="%3Fc%3D826355624%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="fd6a_" profileforwhole="5" tur="03:56" duration="236" paid="true" id="826355624" tcid="826355624" tver="4" title="Dhoom 3 - Kamli"/>
+<item type="clip" sections="songs" tdur="172" urlpath="http%3A%2F%2Fs1040.vuclip.com%2F29%2Fed%2F29ed67b7e6f2a6d8aabc25c3d4233b4c" args="%3Fc%3D836219408%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="29ed_" profileforwhole="5" tur="02:52" duration="172" paid="false" id="836219408" tcid="836219408" tver="3" title="Yamla Pagla Deewana 2 - Suit Tera Laal Rang Da"/>
+<item type="clip" sections="songs" tdur="157" urlpath="http%3A%2F%2Fs2290.vuclip.com%2F54%2F2c%2F542c14f82096afdbf5115b18ae8cf662" args="%3Fc%3D826988923%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="542c_" profileforwhole="5" tur="02:38" duration="157" paid="true" id="826988923" tcid="826988923" tver="2" title="Gunday - Tune Maari Entriyaan"/>
+<item type="clip" sections="songs" tdur="167" urlpath="http%3A%2F%2Fs2070.vuclip.com%2F99%2F3b%2F993b9d96967495a992eb9e56f6cbfe44" args="%3Fc%3D835860725%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="993b_" profileforwhole="5" tur="02:47" duration="167" paid="false" id="835860725" tcid="835860725" tver="4" title="Chak De India - Chak De India 1"/>
+<item type="clip" sections="songs" tdur="155" urlpath="http%3A%2F%2Fs580.vuclip.com%2F75%2Feb%2F75ebcfa261ef3bc47e34e48505ddae85" args="%3Fc%3D902590809%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="75eb_" profileforwhole="5" tur="02:36" duration="155" paid="true" id="902590809" tcid="902590809" tver="3" title="Daawat e Ishq - Mannat"/>
+<item type="clip" sections="songs" tdur="138" urlpath="http%3A%2F%2Fs1460.vuclip.com%2F2c%2F69%2F2c69b1842ca70523c71f52aec2dca4a3" args="%3Fc%3D826988962%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="2c69_" profileforwhole="5" tur="02:19" duration="138" paid="true" id="826988962" tcid="826988962" tver="3" title="Jab Tak Hai Jaan - Challa"/>
+<item type="clip" sections="songs" tdur="177" urlpath="http%3A%2F%2Fs1510.vuclip.com%2F2d%2F35%2F2d35c9754599071001232323b6616c0c" args="%3Fc%3D826988698%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="2d35_" profileforwhole="5" tur="02:57" duration="177" paid="true" id="826988698" tcid="826988698" tver="5" title="Ek Tha Tiger - Mashallah"/>
+<item type="clip" sections="songs" tdur="125" urlpath="http%3A%2F%2Fs900.vuclip.com%2F34%2Ff7%2F34f7b677c24c992ea866b1037c9f3bf6" args="%3Fc%3D836212873%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="34f7_" profileforwhole="5" tur="02:05" duration="125" paid="false" id="836212873" tcid="836212873" tver="3" title="Yamla Pagla Deewana 2 - Changli Hai Changli Hai"/>
+<item type="clip" sections="songs" tdur="293" urlpath="http%3A%2F%2Fs180.vuclip.com%2F94%2F81%2F94817edae6c76880300c3bbc9532b1c4" args="%3Fc%3D835928735%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="9481_" profileforwhole="5" tur="04:53" duration="293" paid="true" id="835928735" tcid="835928735" tver="3" title="Dhoom 3 - Tu Hi Junoon"/>
+<item type="clip" sections="songs" tdur="235" urlpath="http%3A%2F%2Fs1600.vuclip.com%2Fa3%2Fcc%2Fa3ccb43b401716204ee848ffd9b1fb1a" args="%3Fc%3D826994118%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="a3cc_" profileforwhole="5" tur="03:55" duration="235" paid="true" id="826994118" tcid="826994118" tver="3" title="Jab Tak Hai Jaan - Jiya Re"/>
+<item type="clip" sections="songs" tdur="339" urlpath="http%3A%2F%2Fs2350.vuclip.com%2F7a%2F67%2F7a671d4341b72c44e8d222d5bb98cdf4" args="%3Fc%3D837523187%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="7a67_" profileforwhole="5" tur="05:39" duration="339" paid="false" id="837523187" tcid="837523187" tver="3" title="Tashan - Dil Haara"/>
+<item type="clip" sections="songs" tdur="332" urlpath="http%3A%2F%2Fs2600.vuclip.com%2Fe3%2F7c%2Fe37c113e7a3f5baa589071df08690d3a" args="%3Fc%3D836120790%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="e37c_" profileforwhole="5" tur="05:32" duration="332" paid="false" id="836120790" tcid="836120790" tver="3" title="Salaam Namaste - My Dil Goes Umm"/>
+<item type="clip" sections="songs" tdur="154" urlpath="http%3A%2F%2Fs1870.vuclip.com%2Ff0%2Fcc%2Ff0ccffa1d1709671479e3636aa857ebd" args="%3Fc%3D940233669%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="f0cc_" profileforwhole="5" tur="02:34" duration="154" paid="true" id="940233669" tcid="940233669" tver="4" title="Kill Dil - Nakhriley"/>
+<item type="clip" sections="songs" tdur="145" urlpath="http%3A%2F%2Fs2640.vuclip.com%2F16%2Fae%2F16ae53825b4cbf8b29f14f20c51625dd" args="%3Fc%3D826988870%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="16ae_" profileforwhole="5" tur="02:25" duration="145" paid="true" id="826988870" tcid="826988870" tver="3" title="Gunday - Jiya"/>
+<item type="clip" sections="songs" tdur="365" urlpath="http%3A%2F%2Fs1900.vuclip.com%2F7e%2F73%2F7e734293370b60f8d35197903a07ac75" args="%3Fc%3D835893542%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="7e73_" profileforwhole="5" tur="06:05" duration="365" paid="false" id="835893542" tcid="835893542" tver="2" title="Darr - Tu Mere Samne"/>
+<item type="clip" sections="songs" tdur="158" urlpath="http%3A%2F%2Fs1870.vuclip.com%2Fb6%2F51%2Fb65144ee6517d5d9c3f522c34ad21e09" args="%3Fc%3D826988728%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="b651_" profileforwhole="5" tur="02:38" duration="158" paid="true" id="826988728" tcid="826988728" tver="6" title="Ek Tha Tiger - Saaiyara"/>
+<item type="clip" sections="songs" tdur="603" urlpath="http%3A%2F%2Fs1660.vuclip.com%2F32%2Fca%2F32ca50b540010594ce36fa36738e4dc8" args="%3Fc%3D835842353%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="32ca_" profileforwhole="5" tur="10:03" duration="603" paid="false" id="835842353" tcid="835842353" tver="4" title="Aaja Nachle - O Re Piya"/>
+<item type="clip" sections="songs" tdur="264" urlpath="http%3A%2F%2Fs1320.vuclip.com%2F72%2Fdf%2F72dfe288f056821078ddd4d4c0177c14" args="%3Fc%3D835981518%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="72df_" profileforwhole="5" tur="04:24" duration="264" paid="false" id="835981518" tcid="835981518" tver="3" title="Fanaa - Mere Haath Mein"/>
+<item type="clip" sections="songs" tdur="298" urlpath="http%3A%2F%2Fs2340.vuclip.com%2Fc2%2Fc8%2Fc2c83d73a83435f8cda1805f9ef07146" args="%3Fc%3D835986611%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="c2c8_" profileforwhole="5" tur="04:58" duration="298" paid="false" id="835986611" tcid="835986611" tver="3" title="Hum Tum - Title Song"/>
+<item type="clip" sections="songs" tdur="274" urlpath="http%3A%2F%2Fs2300.vuclip.com%2F7c%2F0e%2F7c0ec1c7d6ed1ba071175e4b579616dd" args="%3Fc%3D826989011%26u%3D5571203139%26s%3DBSz1Je%26abrs" tdirforwhole="vp63207" prefixforwhole="7c0e_" profileforwhole="5" tur="04:34" duration="274" paid="true" id="826989011" tcid="826989011" tver="3" title="JTHJ - Ishq Shava"/>
+</container>
+</category>
+<category isepisodic="false" iscollection="true" id="4_2" title="Collections" scroll_direction="vertical">
+<container id="collections" recommtitle="Recommended videos" title="Collections">
+<item type="playlist" paid="true" id="21491351" tver="-1" tcid="968167221" variation="playlist" title="Box Office Hits"/>
+<item type="playlist" paid="true" id="21348049" tver="-1" tcid="967343279" variation="playlist" title="King Khan Special"/>
+<item type="playlist" paid="true" id="16177584" tver="-1" tcid="967353512" variation="playlist" title=" Master Chef Sanjeev Kapoor"/>
+<item type="playlist" paid="false" id="21424889" tver="-1" tcid="956547985" variation="playlist" title="Garfield & Friends"/>
+<item type="playlist" paid="true" id="21490573" tver="-1" tcid="968146030" variation="playlist" title="Comedy Unlimited"/>
+<item type="playlist" paid="true" id="21424793" tver="-1" tcid="956548074" variation="playlist" title="Best Of Katrina"/>
+<item type="playlist" paid="true" id="21459599" tver="-1" tcid="967356035" variation="playlist" title="Love Diaries"/>
+<item type="playlist" paid="true" id="21275296" tver="-1" tcid="968170035" variation="playlist" title="Soulful Lata Mangeshkar"/>
+<item type="playlist" paid="true" id="pcc-2385" tver="-1" tcid="967751088" variation="pcc" title="Comedy Circus Kapil Sharma Special"/>
+<item type="playlist" paid="true" id="21275288" tver="-1" tcid="968149283" variation="playlist" title="Animation Studio"/>
+</container>
+</category>
+</body>
+</page>
