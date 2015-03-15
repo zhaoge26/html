@@ -1,0 +1,44 @@
+.wrap{
+    width: 100%;
+    height:100%;
+}
+
+.header {
+    width: 100%;
+    height: 52px;
+    background: #2F5C60;
+}
+
+.mainbody{
+    width: 1002px;
+    height: 440px;
+    margin: 0 auto;
+    background: orange;
+}
+
+.title{
+    background: yellow;
+    width: 100%;
+    height: 40px;
+}
+
+#act1 {
+    float: left;
+}
+
+#act2 {
+    float:right;
+}
+
+.main{
+    clear:both;
+    width: 100%;
+    height: 275px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 256px;
+    background: pink;
+}
