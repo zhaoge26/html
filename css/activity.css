@@ -83,3 +83,22 @@
 #ac-pre{
   float: right;
 }
+
+.main{
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid gray;
+  margin-top: 10px;
+}
+
+#act1{
+  width: 320px;
+  height: 302px;
+  margin-top: 10px;
+}
+
+.acitvity-img{
+  width: 300px;
+  height: 206px;
+}
+
