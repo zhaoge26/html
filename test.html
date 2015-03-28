@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>array</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>节点属性</title>
 </head>
 <body>
-  
+  <ul>
+     <li title="li1">javascript</li>
+     <li title="li2">HTML/CSS</li>
+     <li title="li3">jQuery</li>     
+  </ul>
+  <script type="text/javascript">
+    var lists=document.getElementsByTagName("li");
+    for(i=0;i<lists.length;i++){
+        document.write(lists[i].nodeName+"<br />");
+        document.write(lists[i].nodeValue+"<br />");
+        document.write(lists[i].nodeType+"<br />");
+    }
+  </script>
 </body>
 </html>

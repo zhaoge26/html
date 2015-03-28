@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>intervarl</title>
+  <script type="text/javascript">
+    function clock(){
+      var time=new Date();
+      document.getElementById("clock").value=time;
+    }
+    var i = setInterval("clock()", 2000);
+  </script>
+</head>
+<body>
+  <form action="">
+    <input type="text" id="clock" size="50" />
+    <input type="button" value="Stop" onclick="clearInterval(i)" />
+    </form>
+</body>
+</html>

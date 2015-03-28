@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>getAttribut</title>
+</head>
+<body>
+  <h1 id="alink" title="getAttribut()获取标签的属性" onclick="hattr()"><input type="button" value="点我"></h1>
+  <script type="text/javascript">
+    function hattr(){
+      var anode=document.getElementById("alink");
+      var attr1=anode.getAttribute("id");
+      var attr2=anode.getAttribute("title");
+      document.write("h1标签的ID： " + attr1+"<br />");
+      document.write("h1标签的title： "+attr2);
+    }
+  </script>
+</body>
+</html>

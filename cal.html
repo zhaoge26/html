@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>事件</title>
+  <script type="text/javascript">
+  var res;
+  function count(){
+    var num1=document.getElementById("txt1").value;
+    var num2=document.getElementById("txt2").value;
+    var oper=document.getElementById("select").value;
+    if(oper=="+")
+      { res = parseFloat(num1) + parseFloat(num2);}
+    else if(oper=="-")
+      { res = parseFloat(num1) - parseFloat(num2);}
+    else if(oper=="*")
+      { res = parseFloat(num1) * parseFloat(num2);}
+    else
+      { res = parseFloat(num1) / parseFloat(num2);}
+    document.getElementById("fruit").value=res;
+  }
+  </script>
+</head>
+<body>
+  <input type="text" id="txt1" />
+  <select id='select'>
+    <option value='+'>+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+  <input type="text" id="txt2" />
+  <input type="button" value='=' onclick="count()"/>
+  <input type="text" id="fruit" />
+</body>
+</html>
