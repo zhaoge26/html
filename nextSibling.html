@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sibling</title>
+</head>
+<body>
+  <ul id="u1">
+    <li id="a1">js</li>
+    <li id="a2">jq</li>
+    <li id="a3">html</li>
+  </ul>
+  <ul id>
+    <li id="b1">css3</li>
+    <li id="b2">php</li>
+    <li id="b3">java</li>
+    <script type="text/javascript">
+      function get_nextSibling(n){
+        var x=n.nextSibling;
+        while (x && x.nodeType!=1){
+          x=x.nextSibling;
+        }
+        return x;
+      }
+
+      var x=document.getElementsByTagName("li")[0];
+      document.write(x.nodeName + "=" + x.innerHTML);
+      var y=get_nextSibling(x);
+
+      if(y!=null){
+        document.write("<br />nextSibling: " + y.nodeName + " = " + y.innerHTML) ;
+      }else{
+        document.write("<br> this is the last one");
+      }
+    </script>
+  </ul>
+</body>
+</html>

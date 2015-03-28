@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js test</title>
+  <style type="text/css">
+  body{font-size:12px;}
+      .txt1{
+    border:1px solid #ccc;
+    width:530px;
+    height:200px;
+    background:#9CF;
+    color:blue;
+  }
+  .txt{
+    height:400px;
+    width:600px;
+    border:#333 solid 1px;
+    padding:5px;
+  }
+  p{
+    line-height:18px;
+    text-indent:2em;
+  }
+</style>
+<script type="text/javascript">
+  function add(){
+     var p1 = document.getElementById("t2");
+     p1.className="txt1";
+}
+
+function change_color(){
+  var c_color = document.getElementById("txt");
+  c_color.style.color = "red";
+  c_color.style.backgroundColor = "gray";
+}
+
+function change_height(){
+  var c_height = document.getElementById("txt");
+  c_height.style.width = 500px;
+  c_height.style.height = 500px;
+}
+</script>
+</head>
+<body>
+  <h2 id="con">JS class</h2>
+  <div id="t1" class="txt1"></div>
+  <div id="t2" class="txt"> 
+     <h5>JavaScript为网页添加动态效果并实现与用户交互的功能。</h5>
+        <p>1. JavaScript入门篇，让不懂JS的你，快速了解JS。</p>
+        <p>2. JavaScript进阶篇，让你掌握JS的基础语法、函数、数组、事件、内置对象、BOM浏览器、DOM操作。</p>
+        <p>3. 学完以上两门基础课后，在深入学习JavaScript的变量作用域、事件、对象、运动、cookie、正则表达式、ajax等课程。</p>
+  </div>
+  <form>
+    <input type="button" value="改变颜色" onclick="change_color()">
+    <input type="button"  value="改变宽高" onclick="add()">
+    <input type="button" value="隐藏内容">
+    <input type="button" value="显示内容">
+    <input type="button" value="取消设置" >
+  </form>
+</body>
+</html>
