@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;text-decoration: none;list-style: none;}
+
+
+
+#nav{
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #aaa;
+}
+
+#content{
+  margin: 0 155px 0 85px;
+  background-color: #ddd;
+  width: auto;
+}
+
+#content p{
+  text-indent: 2em;
+}
+
+#aside{
+  width: 150px;
+  position: absolute;
+  top:0;
+  right: 0;
+  background-color: #777;
+}
+
+#footer{
+  width: auto;
+  text-align: center;
+  clear: both;
+  padding: 10px;
+  border-top: 1px solid #ccf;
+}

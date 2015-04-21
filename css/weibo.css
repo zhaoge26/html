@@ -1,0 +1,86 @@
+*{margin: 0;padding:0;text-decoration: none;list-style: none;}
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+body{
+  background: #eee;
+}
+.newcont{
+  border: 1px solid black;
+  background: #fff;
+  width: 550px;
+  margin: 10px auto;
+  position: relative;
+}
+
+#otherW{
+  float: right;
+  margin: 10px 5px 3px 0;
+}
+
+#otherW p{
+  font: 15px;
+}
+
+
+#otherW a{
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+#form1{
+  margin: 5px;
+}
+
+#wContent{
+  width: 540px;
+  padding: 5px;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+#submit{
+  float: right;
+  padding: 3px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.dropmenu {
+  display: none;
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  z-index: 10;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+}
+
+input[type="checkbox"]:checked ~ .dropmenu {
+  display: block;
+}
+
+#otherF li{
+  float: left;
+  margin: 3px 5px;
+  font-size: 13px;
+}
+
+#form2{
+  float: right;
+  margin-right: 10px;
+}

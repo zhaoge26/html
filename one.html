@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>one()方法执行一次绑定事件</title>
+        <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>  
+        <style>
+        div{
+            width: 180px;
+            border: solid 1px #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <h3>one()方法执行一次绑定事件</h3>
+        <div>请点击我一下</div>
+        
+        <script type="text/javascript">
+            $(function () {
+                var intI = 10;
+                $("div").one("click", function () {
+                    intI++;
+                    $(this).css("font-size", intI + "px");
+                })
+            });
+        </script>
+    </body>
+</html>

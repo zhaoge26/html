@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  width: 800px;
+  margin: 0 auto;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+h1{
+  height: 80px;
+  line-height: 80px;
+  background-color: #75AAD7;
+  padding-left: 25px;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.nav li{
+  float: left;
+  margin: 10px 30px;
+  font-weight: bold;
+}
+
+.nav li.current {
+  text-decoration: none;
+  border-bottom:3px solid #cc0000;
+}
+.nav a:hover {
+  border-bottom:3px solid #cc0000;
+}
+
+#mainbody{
+  clear:both;
+  margin-top: 50px;
+}
+
+#sidebar{
+  width: 23%;
+  float: left;
+}
+
+#sidebar .current a{
+  color: #f00;
+}
+
+#sidebar a:hover {
+  text-decoration:underline;
+  color:#ff0000;
+}
+
+.ul-side>li{
+  background-color: #75AAD7;
+  padding: 8px 12px;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.ul-side ul li{
+  font-size: 12px;
+  margin: 8px 25px;
+}
+
+#content{
+  width: 74%;
+  float: left;
+  font-size: 12px;
+  line-height: 1.8em;
+}
+
+.pageto{
+  margin: 10px 0;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  border-bottom: 3px solid #ddd;
+}
+
+.pageto a{
+  border: 1px;
+  background-color: #eee;
+  padding: 8px 25px;
+  margin-right: 30px;
+}
+
+.disline{
+  border-top: 1px dashed #ccc;
+  margin: 10px 0;
+}
+
+#content  h3 {
+  margin-top:10px;
+  line-height:26px;
+}
+#content  dl {
+  margin-bottom:10px;
+}
+#content  dt {
+  font-weight:bolder;
+  line-height:26px;
+}
+#content  dd {
+  line-height:22px;
+}
+
+
+
+
+
+

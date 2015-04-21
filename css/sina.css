@@ -1,11 +1,13 @@
-body,
-ul {
+body,ul,a {
   margin: 0;
-}
-
-ul {
   padding: 0;
   list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font: 20px/1.428 sans-serif;
+  color: #333;
 }
 
 .clearfix:before,
@@ -24,17 +26,12 @@ ul {
 
 .menu {
   border-radius: 5px;
+  margin: 10px;
 }
 
 .menu > li {
 	float: left;
 	position: relative;
-}
-
-body {
-  font: 20px/1.428 sans-serif;
-  background: #fff;
-  color: #333;
 }
 
 .caret {
@@ -48,10 +45,11 @@ body {
   border-left: 4px solid transparent;
 }
 
-.menu li a {
+.menu a {
+  height: 20px;
+  width: auto;
   display: block;
   padding: 7px 12px;
-  text-decoration: none;
   background: #458fd2;
   color: #fff;
 }
@@ -70,15 +68,24 @@ body {
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 20;
   z-index: 2;
+}
+
+.nenu{
+  padding: 20px;
+  width: 30px;
+  margin: 20px auto;
 }
 
 .menu > li:hover a,
 .menu li.active a {
   background: #18334c;
+  height: 23px;
+  margin-top: -2px;
+  line-height: 23px;
 }
 
-.menu > li:hover .sub-menu {
+.menu li:hover .sub-menu {
   display: block;
 }

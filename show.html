@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>show and hide</title>
+  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+  <img src="pic/jjm.jpg" alt="" style="display:none;width:200px;height:250px;">
+  <input type="button" id="btn" value="显示">
+  <script type="text/javascript">
+    $(function(){
+      $("#btn").bind("click",function(){
+        var $this=$(this);
+        $("img").toggle(1500,function(){
+
+          $this.val() == "显示" ? $this.val("隐藏") : $this.val("显示");
+        });
+      });
+    });
+  </script>
+</body>
+</html>

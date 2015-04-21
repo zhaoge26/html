@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0;text-decoration: none;list-style: none;}
+
+body{
+  background-color: #eee;
+}
+
+#nav{
+  margin: 20px;
+  width: 100px;
+}
+
+#nav li {
+  border-bottom: 1px solid #aaa;
+  position: relative;
+}
+
+#nav a{
+  display: block;
+  border-radius: 5px;
+  padding: 3px 8px;
+  font: 20px Exo,helvetica,arial,sans-serif;
+  font-weight: 400px;
+  color: #000;
+}
+
+#nav li ul{
+  position: absolute;
+  width: 100px;
+  display: none;
+  left: 100%;
+  top: 0;
+}
+
+#nav li:hover >a{
+  color: #12f;
+  padding: 4px 8px;
+}
+
+#nav li:hover >ul{
+  display: block;
+}
