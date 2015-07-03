@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>链式运动</title>
+  <style type="text/css">
+  li{
+    width: 200px;
+    height: 190px;
+    background: #123;
+    list-style: none;
+  }
+  </style>
+  <script src="js/move.js"></script>
+  <script>
+  window.onload = function(){
+    var Li = document.getElementById('li1');
+    Li.onmouseover = function(){
+      startMove(Li,'width',400);
+    }
+    Li.onmouseout = function(){
+      startMove(Li,'width',200);
+    }
+  }
+  </script>
+</head>
+<body>
+  <ul>
+    <li id="li1"></li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.spin{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: green;
+  margin: 100px auto;
+  -webkit-animation:bianhuan 1s ease-in-out infinite;
+          animation:bianhuan 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes bianhuan{
+  from{-webkit-transform:scale(0,0);}
+  to{-webkit-transform:scale(1,1);opacity: 0;}
+}
+
+@keyframes bianhuan{
+  from{transform:scale(0,0);}
+  to{transform:scale(1,1);opacity: 0;}
+}

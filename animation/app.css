@@ -1,0 +1,22 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.animation {
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ccc;
+  line-height: 200px;
+  -webkit-transition: all 2s ease-in-out;
+  transiton: all 2s ease-in-out;
+}
+
+.animation:hover {
+  width: 400px;
+  height: 300px;
+  background: rgba(255, 0, 0, 0.9);
+  line-height: 300px;
+}

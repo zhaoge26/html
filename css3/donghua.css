@@ -1,0 +1,105 @@
+.wrapper1 {
+  width: 200px;
+  height: 200px;
+  margin: 80px auto;
+}
+
+.dh1{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background: red;
+  border: 1px dotted red;
+  text-align: center;
+  -webkit-transition:all 1.1s ease-out;
+          transition:all 1.1s ease-out;
+}
+
+.dh1:hover{
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  opacity: 0.5;
+  -webkit-transform:rotate(-50deg);
+      -ms-transform:rotate(-50deg);
+          transform:rotate(-50deg);
+  -webkit-transition:all 1.1s ease-out .1s;
+          transition:all 1.1s ease-out .1s;
+}
+
+.wrapper2 {
+  width: 200px;
+  height: 200px;
+  margin: 80px;
+  border: 1px dotted red;
+}
+
+.dh2{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background: #000;
+}
+
+@-webkit-keyframes changecolor{
+  0%{background:#fff;}
+  20%{background:#ff1;}
+  40%{background:#fcc;}
+  60%{background:#faa;}
+  80%{background:#eff;}
+  100%{background:#eee;}
+}
+
+@keyframes changecolor{
+  0%{background:#fff;}
+  20%{background:#ff1;}
+  40%{background:#fcc;}
+  60%{background:#faa;}
+  80%{background:#eff;}
+  100%{background:#eee;}
+}
+
+.dh2:hover{
+  -webkit-animation:changecolor 4s ease-in .1s;
+          animation:changecolor 4s ease-in .1s;
+}
+
+.dh3{
+  border: 1px solid red;
+  margin: 30px auto;
+  width: 400px;
+  height: 300px;
+}
+
+
+@-webkit-keyframes changePosition{
+  0%{transform:translate(0);}
+  15%{transform:translate(80px,50px);}
+  30%{transform:translate(380px,0);}
+  45%{transform:translate(180px,230px);}
+  60%{transform:translate(380px,280px);}
+  90%{transform:translate(0,280px);}
+}
+
+@keyframes changePosition{
+  0%{transform:translate(0);}
+  15%{transform:translate(80px,50px);}
+  30%{transform:translate(380px,0);}
+  45%{transform:translate(180px,230px);}
+  60%{transform:translate(380px,280px);}
+  90%{transform:translate(0,280px);}
+}
+
+.dh3 span{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: orange;
+  border-radius: 100%;
+  -webkit-animation:changePosition 5s ease .1s infinite;
+          animation:changePosition 5s ease .1s infinite;
+}
+
+
+
+

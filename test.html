@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+</head>
+<body>
+    <div class="wrapper">
+  <div>我修改原点之后在进行15度的扭曲</div>
+  </div>
+  <script>
+    !function(a) {
+      'use strict'
+      arguments[0]=100;
+      console.log(a);
+	 }(1);
+
+  var man = {
+    name : 'zg',
+    weibo: '@zg',
+    get age(){
+      return new Date().getFullYear() - 1989;
+    },
+    set age(val){
+      document.write('age can\'t be change');
+    }
+  }
+
+    document.write(man.age);
+    document.write('</br>');
+    man.age=100;
+    document.write('</br>');
+    document.write(man.age);
+    man.height=180;
+    document.write('</br>');
+    document.write(man.height);
+
+    function rep(str,n){
+      return new Array(n).join(str);
+    }
+
+    a=rep("a",3);
+    document.write(a);
+  </script>
+</body>
+</html>

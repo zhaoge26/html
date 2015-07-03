@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>canvas</title>
+</head>
+<body>
+  <canvas width="500" height="500" style="background:yellow" id="canvas">
+    
+  </canvas>
+  <script type="text/javascript">
+    var canvas=document.getElementById("canvas");
+    var cxt=canvas.getContext("2d");
+      //alert(cxt);
+    //draw a line
+      cxt.moveTo(20, 20);
+      cxt.lineTo(20, 100);
+      // draw
+      cxt.stroke();
+      cxt.closePath();
+    //draw a circle
+      cxt.beginPath()
+      cxt.strokeStyle="#f00";
+      cxt.arc(200, 200, 50, 0, 360, false);
+      cxt.stroke();
+      cxt.closePath();
+    // another circle
+      cxt.beginPath();
+      cxt.fillStyle="red";
+      cxt.arc(300, 300, 80, 0, 360, false);
+      cxt.fill();
+      cxt.stroke();
+      cxt.closePath();
+    // draw a rectangle
+      cxt.rect(100, 30, 40, 40);
+      cxt.stroke();
+      cxt.strokeRect(130, 50, 50, 50);
+      cxt.beginPath();
+      cxt.rect(150, 70, 40, 40);
+      cxt.fill();
+      cxt.closePath();
+      cxt.fillStyle="blue";
+      cxt.fillRect(180, 90, 40, 40);
+    // draw a pic
+      var img = new Image();
+      img.src="pic/jjm.jpg";
+      cxt.drawImage(img, 20, 100, 140, 200);
+  </script>
+</body>
+</html>
